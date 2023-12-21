@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Droll In - Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <form id="signupForm">
+            <h2>Sign Up</h2>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I accept the <a href="#">Terms and Conditions</a></label>
+            </div>
+            <button type="button" onclick="register()">Accept and Register</button>
+        </form>
+        <div class="or-divider">or</div>
+        <button class="google-button" onclick="signInWithGoogle()">
+            <img src="/assets/google.png" alt="Google Logo">
+            Sign Up with Google
+        </button>
+        <div class="login-link">
+            <p>Already registered? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
